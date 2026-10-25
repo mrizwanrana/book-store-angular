@@ -1,0 +1,18 @@
+<h2 class="container">{{pageTitle}}</h2>
+
+<button mat-raised-button color="primary" routerLink="/books/new">Add new book</button>
+<button mat-raised-button color="primary" routerLink="/books/new-reactive">Add new book using reactive form</button>
+<app-book-card [books]="books"></app-book-card>
+<!--<a routerLink="/books/recent">Recent Books</a>
+
+<button (click)="increase()">Counter ++</button>
+<button (click)="decrease()">Counter --</button>
+
+<p>Counter = {{_counterServices.counter}}</p>
+
+<app-book-card [books] = "books"></app-book-card>
+
+
+
+<p>all-books works!</p>
+<a routerLink="/books/1">Go to all books</a>-->
